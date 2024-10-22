@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+.head {
+    padding: 2% 0 0 15%;
+}
+
+.head_links {
+    gap: 80px;
+}
+
+.head_links_text {
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    margin: 0 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.head_links_text:hover {
+    color: #007bff;
+}
+
+/* .head_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.apresentacao {
+    padding: 3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_texto {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao_texto_titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao_texto_paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.botoes_titulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.botoes_style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #22D4FD;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.botoes_style:hover {
+    cursor: pointer;
+    background-color: #052830;
+}
+
+.feet {
+    color: black;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
